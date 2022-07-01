@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pizzaria</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><h1>Pizzaria Bela Vista</h1></li>
+            <li><h2>Vendas de Pizzas</h2></li>
+        </ul>
+    </header>
+
+    <section>
+        <form action="">
+            <h3>Selecione a pizza que deseja:</h3>
+            <ul>
+                <li><input type="radio" id="mussarela" name="pizzas"><label for="mussarela">Mussarela</label></li>
+                
+                <li><input type="radio" id="calabresa" name="pizzas"><label for="calabresa">Calabresa</label></li>
+
+                <li><input type="radio" id="portuguesa" name="pizzas"><label for="portuguesa">Portuguesa</label></li>
+            </ul>
+        </form>
+    </section>
+
+    <section>
+        <button id="vendas">Vendas</button><button id="estorno">Estorno</button>
+    </section>
+
+    <section id="tabela">
+        <table>
+            <tr>
+                <th>Sabores</th><th>Quantidade</th><th>Valores</th>
+            </tr>
+            <tr>
+                <td>Mussarela</td><td id="quantidadeMussarela"></td><td id="resultadoMussarela"></td>
+            </tr>
+            <tr>
+                <td>Calabresa</td><td id="quantidadeCalabresa"></td><td id="resultadoCalabresa"></td>
+            </tr>
+            <tr>
+                <td>Portuguesa</td><td id="quantidadePortuguesa"></td><td id="resultadoPortuguesa"></td>
+            </tr>
+        </table>
+
+        
+    </section>
+    
+    <div>
+        <p>Total:</p><p id="total"> </p>
+    </div>
+
+    <section>
+        <button id="export">Planilha</button>
+    </section>
+
+    <script type="text/javascript" src="javascript.js"></script>
+    <script src="tableToExcel.js"></script>
+</body>
+</html>

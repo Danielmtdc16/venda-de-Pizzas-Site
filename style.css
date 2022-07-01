@@ -1,0 +1,52 @@
+body{
+    margin: auto;
+    width: 60%;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color:blue;
+    color: white;
+    text-align: center;
+}
+
+header ul li{
+    list-style: none;
+}
+
+section form ul li{
+    list-style: none;;
+}
+
+section form ul li label{
+    font-size: 20px;
+}
+
+section{
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-radius: 23px;
+    font-size: medium;
+}
+
+div{
+    margin-top: 5px;
+    justify-content:center;
+    display: flex;
+}
+
+#total{
+    margin-left: 4px;
+}
+
+p{
+    font-size:medium;
+}
